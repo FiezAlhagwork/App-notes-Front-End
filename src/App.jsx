@@ -10,7 +10,7 @@ const router = (
       <Route element={<ProtectedRoute />}>
         <Route path="/dashbord" element={<Home />} />
       </Route>
-      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Login />} />
       <Route path="/signup" element={<SignUp />} />
     </Routes>
   </Router>

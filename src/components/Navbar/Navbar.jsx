@@ -10,7 +10,7 @@ const Navbar = ({ userInfo, onSearchNotes, handelClearSearch }) => {
 
   const onLogout = () => {
     localStorage.clear();
-    navigate("/login");
+    navigate("/");
   };
 
   const handelSearch = () => {
